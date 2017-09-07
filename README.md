@@ -21,7 +21,7 @@ This example requires a running [Kubernetes](https://kubernetes.io) cluster and 
 1) We add the remote repo to Helm:
 ```
 $ helmc up
-$ helmc repo add demo-charts https://github.com/deis/demo-charts
+$ helmc repo add demo-charts https://github.com/deisthree/demo-charts
 $ helmc up
 ```
 
@@ -35,7 +35,7 @@ $ helmc install redis-guestbook
 
 1) Clone the repo:
 ```
-$ git clone https://github.com/deis/example-guestbook.git
+$ git clone https://github.com/deisthree/example-guestbook.git
 $ cd example-guestbook
 ```
 
